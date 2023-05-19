@@ -1,5 +1,7 @@
-$color: red;
+// Base
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
 
-body {
-  color: $color;
-}
+// header
+@import "./blocks/header";
